@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+
+body{
+
+margin: 0;
+box-sizing: border-box;
+padding: 0;
+
+    background: grey;
+    font-family: 'Rubik', sans-serif;
+}
+
+.container  {
+
+
+   
+    margin:0 auto;
+}
+
+#container-header {
+  height: 530px;
+    background: url(../img/header.jpg) no-repeat center center / cover ;
+    color: white;
+     
+  }
+
+
+  .header{
+      
+   margin: 0px auto;
+
+    display: flex;
+    flex-direction: column;
+   
+    align-items: center;
+  }
+
+
+  .navbar {
+
+  display: flex;
+  justify-content: flex-end;
+  background: black;
+  
+  }
+
+  .btn{
+
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 20px 30px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+
+  }
+
+  .login {
+background: none;
+opacity: 0.9;
+color: white;
+border: none;
+letter-spacing: 1px;
+
+
+
+  }
+
+  h5{
+
+    color: rgb(111, 230, 56);
+    text-transform: uppercase;
+  }
+
+  .disclaimer{
+      margin: 20px 0;
+        font-size: 8px;
+        letter-spacing: 1px;
+  }
+
+
+  .btn:hover{
+
+    cursor: pointer;
+    opacity: 0.8;
+  }
+
+
+  /*media query*/
+
+  @media only screen and (max-width: 768px){
+.HBO {
+
+    display: none;
+}
+
+
+  }
+  

@@ -151,7 +151,7 @@ margin: 0 auto;
 .bundle p{
 
   color: #fff;
-  display: flex;
+ 
   font-size: 21px;
 
 
@@ -161,6 +161,9 @@ margin: 0 auto;
 .bundle{
 
 margin-bottom: 60px;
+text-align: left;
+float: left;
+justify-content: left;
 
 
 }
@@ -211,12 +214,7 @@ h2 {
   
 }
 
-.bundle {
 
-  align-content: center;
-  justify-content: center;
-  text-align: center;
-}
 
 .btn-bundle{
 

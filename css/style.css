@@ -1,14 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
 
 
-body{
+
+*{
 
 margin: 0;
 box-sizing: border-box;
 padding: 0;
 
+}
+
+
+
+body{
+
+
+
     background: grey;
     font-family: 'Rubik', sans-serif;
+    line-height: 1.9;
 }
 
 .container  {
@@ -22,11 +32,13 @@ padding: 0;
 
 
 #container1{
+  
  background: url(../img/header.jpg) no-repeat center center / cover ;
 
 }
 
 #container-header {
+  padding-top: 20px;
   height: 530px;
 
     color: white;
@@ -45,7 +57,11 @@ padding: 0;
 
     max-width: 475px;
   }
+.header h2{
 
+  margin-top: 20px;
+ 
+}
 
   .navbar {
 
@@ -107,7 +123,14 @@ h2, p{
 img{
 
 
-  width: 60%;
+  width: 100%;
+ 
+}
+
+.logo{
+
+
+  width: 70%;
 }
 
   .btn:hover{
@@ -120,7 +143,7 @@ img{
 padding: 10px 100px;
 margin: 0 auto;
   display: grid;
-  grid-template-columns: 2fr 4fr 1fr;
+  grid-template-columns: 2fr 4fr 2fr;
   justify-items: center;
 
 }
@@ -130,12 +153,15 @@ margin: 0 auto;
   color: #fff;
   display: flex;
   font-size: 21px;
+
+
  
   
 }
 .bundle{
 
 margin-bottom: 60px;
+
 
 }
 

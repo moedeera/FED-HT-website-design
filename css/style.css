@@ -69,8 +69,13 @@ padding: 0;
     padding: 20px 30px;
     font-weight: 600;
     letter-spacing: 1.5px;
+    border-radius: 10px;
 
   }
+
+
+
+
 
   .login {
 background: none;
@@ -111,6 +116,42 @@ img{
     opacity: 0.8;
   }
 
+.grid{
+padding: 10px 100px;
+margin: 0 auto;
+  display: grid;
+  grid-template-columns: 2fr 4fr 1fr;
+  justify-items: center;
+
+}
+
+.bundle p{
+
+  color: #fff;
+  display: flex;
+  font-size: 21px;
+ 
+  
+}
+.bundle{
+
+margin-bottom: 60px;
+
+}
+
+
+.btn-bundle{
+  
+  height: fit-content;
+  width: fit-content;
+  background: none ;
+  border: 1px solid white;
+  color: #fff;
+  padding: 25px 35px
+  
+}
+
+
 
   /*media query*/
 
@@ -138,6 +179,23 @@ h2 {
   font-size: 12px;
 }
 
+.grid{
+ padding: 0px;
+  grid-template-columns: 1fr;
+  
+}
+
+.bundle {
+
+  align-content: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.btn-bundle{
+
+  padding: 10px;
+}
 
 
 

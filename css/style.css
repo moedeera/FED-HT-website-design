@@ -38,8 +38,8 @@ body{
 }
 
 #container-header {
-  padding-top: 20px;
-  height: 530px;
+  padding-top: 0px;
+  height: 330px;
 
     color: white;
      
@@ -85,10 +85,13 @@ body{
     padding: 20px 30px;
     font-weight: 600;
     letter-spacing: 1.5px;
-    border-radius: 10px;
-
+   
   }
+.btn-start{
 
+  border-radius: 10px;
+
+}
 
 
 
@@ -110,8 +113,15 @@ letter-spacing: 1px;
     text-transform: uppercase;
   }
 
-h2, p{
+h3, p{
+ 
   text-align: center;
+  margin-top: 10px;
+}
+
+h3{
+
+  margin-top: 20px;
 }
 
 
@@ -140,7 +150,7 @@ img{
   }
 
 .grid{
-padding: 40px 100px;
+padding: 40px 70px;
 margin: 0 auto;
 
   display: grid;
@@ -158,7 +168,12 @@ margin: 0 auto;
     
 }
 
+a{
 
+  text-decoration: underline;
+  color: #fff;
+  font-size: 16px;
+}
 
 
 .btn-bundle{
@@ -168,11 +183,23 @@ margin: 0 auto;
   background: none ;
   border: 1px solid white;
   color: #fff;
-  padding: 25px 35px
+  padding: 15px 25px;
+  border-radius:5px;
+  font-size: 18px;
   
 }
+.btn-bundle:hover{
+
+border:2x solid rgb(99, 96, 96);
 
 
+}
+.bundle-button{
+
+align-items: center;
+margin: 0 auto;
+
+}
 
   /*media query*/
 
@@ -201,16 +228,22 @@ h2 {
 }
 
 .grid{
- padding: 0px;
+
   grid-template-columns: 1fr;
+  padding:0 20px;
+  align-content: center;
   
 }
 
+.bundle-button{
 
+  padding-bottom: 20px;
+}
 
 .btn-bundle{
 
-  padding: 10px;
+margin: 0 auto;
+font-size: 18px;
 }
 
 

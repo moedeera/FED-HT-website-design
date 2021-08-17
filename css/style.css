@@ -383,4 +383,19 @@ font-size: 18px;
   grid-template-columns: 1fr;
 }
 
+
+.second{
+  padding: 0;
+background:rgb(30, 31, 34);
+
+}
+
+.box{
+  padding: 0;
+  display: flex;
+flex-direction: column;
+line-height: 1.5;
+}
+
+
   }

@@ -481,7 +481,11 @@ grid-template-columns: repeat(2,1fr);
 
     display: none;
 }
+.login{
 
+
+  display: none;
+}
 .header {
 max-width:300px;
 
@@ -561,5 +565,28 @@ width: 100%;
 .second-half{
   display: none;
 }
+.upper-footer{
+  display: none;
+
+
+}
+
+
+
+
+
+
 
   }
+
+
+  @media only screen and (min-width: 768px){
+.menu{
+
+  display: none;
+}
+
+
+  }
+
+

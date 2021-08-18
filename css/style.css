@@ -56,6 +56,8 @@ body{
     align-items: center;
 
     max-width: 475px;
+
+    z-index: 2;
   }
 .header h2{
 
@@ -68,6 +70,8 @@ body{
   display: flex;
   justify-content: flex-end;
   background: black;
+  z-index: 2;
+
   
   }
 
@@ -85,6 +89,8 @@ body{
     padding: 20px 30px;
     font-weight: 600;
     letter-spacing: 1.5px;
+    z-index: 2;
+  
    
   }
 .btn-start{
@@ -102,6 +108,7 @@ opacity: 0.9;
 color: white;
 border: none;
 letter-spacing: 1px;
+z-index: 2;
 
 
 
@@ -129,11 +136,13 @@ h3{
       margin: 20px 0;
         font-size: 8px;
         letter-spacing: 1px;
+        z-index: 2;
   }
 img{
 
 
   width: 100%;
+  z-index: 2;
  
 }
 
@@ -141,6 +150,8 @@ img{
 
 
   width: 70%;
+  z-index: 2;
+
 }
 
   .btn:hover{
@@ -156,15 +167,22 @@ margin: 0 auto;
   display: grid;
   grid-template-columns: 2fr 4fr 2fr;
   gap:50px;
+  z-index: 2;
 
 }
 
+
+.bundle{
+  z-index: 2;
+
+}
 .bundle p{
 
   color: #fff;
  
   font-size: 21px;
   text-align: left;
+
     
 }
 
@@ -253,6 +271,7 @@ width: 270px;
   max-width: 100%;
   min-height: 50%;
   max-height: 100%;
+  z-index: 2;
 }
 
 
@@ -292,6 +311,7 @@ background: url(../img/cover-1.jpg) no-repeat center center/cover;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  z-index: 2;
 }
 
 
@@ -306,9 +326,11 @@ background: url(../img/cover-1.jpg) no-repeat center center/cover;
 .poster-text h5{
   font-size: 21px;
   color: white;
+  z-index: 2;
 }
 .poster-text h6{
   font-size: 16px;
+  z-index: 2;
   
 }
 
@@ -324,6 +346,7 @@ text-align: center;
 padding: 50px;
 border:2px solid rgb(111, 230, 56);
 border-radius: 5px;
+z-index: 2;
 }
 
 .second{
@@ -353,7 +376,7 @@ background: linear-gradient(
 display: flex;
 color: white;
 background: url(../img/live-sports.jpg) no-repeat center center / cover ;
-padding: 60px;
+padding: 100px;
 justify-content: space-between;
 
 }
@@ -373,14 +396,14 @@ width: 50%;
 }
 .upper img{
 
-  width:60px;
+  width:40px;
   padding: 5px;
   background: white;
   border-radius: 50%;
 }
 
 .upper-section{
-  max-width: 400px;
+ 
 display: grid;
 grid-template-columns: repeat(3,1fr);
 
@@ -404,13 +427,42 @@ font-size: 24px;
 }
 
 .upper{
-  max-width: 50%;
+
   display: grid;
   grid-template-columns: repeat(4,1fr);
 
 
 
 }
+
+/*footer*/
+
+.footer{
+
+
+  max-width: 768px;
+  margin: 0 auto;
+ display: flex;
+ flex-direction: column;
+ padding: 10px;
+
+}
+.upper-footer{
+  padding: 20px 0;
+display: grid;
+grid-template-columns: repeat(5,1fr);
+justify-content: space-between;
+grid-gap:40px;
+
+
+}
+
+i{
+
+
+margin:10px
+}
+
 
   /*media query*/
   @media (max-width: 1200px){

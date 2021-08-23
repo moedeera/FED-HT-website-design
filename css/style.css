@@ -384,6 +384,10 @@ justify-content: space-between;
 
 width: 50%;
 
+margin: 0 auto;
+margin-right: 40%;
+
+
 
 }
 
@@ -453,6 +457,7 @@ display: grid;
 grid-template-columns: repeat(5,1fr);
 justify-content: space-between;
 grid-gap:40px;
+align-items: center;
 
 
 }
@@ -461,6 +466,95 @@ i{
 
 
 margin:10px
+}
+.final{
+
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background: black;
+align-content: center;
+
+display: flex;
+justify-content: center;
+align-content: center;
+align-items: center;
+
+z-index: 3;
+opacity: 0.9;
+
+}
+
+.login-modal{
+position: relative;
+background: white;
+
+height: 500px;
+width: 400px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+z-index: 4;
+
+
+}
+
+.form-control{
+
+display: grid;
+grid-template-columns: 1fr;
+gap:20px
+
+
+}
+
+
+label{
+
+font-size: 21px;
+text-transform: uppercase;
+}
+
+input{
+
+padding:10px 20px;
+width: 100%;
+
+
+}
+
+
+
+.btn-modal{
+
+  width: 100%;
+  background: black;
+  color: white;
+
+
+}
+
+
+.login-modal i{
+
+  color: black;
+  position: absolute;
+  top:0;
+  right:0;
+
+
+}
+
+.login-modal a{
+
+color: cornflowerblue;
+text-decoration: none;
+cursor: pointer;
+
 }
 
 
@@ -570,12 +664,38 @@ width: 100%;
 
 
 }
+.mid-section p{
+
+  font-size: 16px;
+  
+  }
+  .upper-section {
+  width: 100%;
+    font-size: 8px;
+    
+display: grid;
+grid-template-columns: 1fr
+    
+    }
+
+    .first-half{
+
+      height: 50%;
+      padding: 0;
+    }
+
+    i{
 
 
+      margin:15px;
+      font-size: 10px;
+      }
+      
 
+      .fa-2x i{
 
-
-
+        font-size: 1rem;
+      }
 
   }
 

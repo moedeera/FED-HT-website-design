@@ -558,6 +558,14 @@ cursor: pointer;
 }
 
 
+
+.no-show{
+
+  display: none;
+  
+        }
+  
+
   /*media query*/
   @media (max-width: 1200px){
 
@@ -695,6 +703,13 @@ grid-template-columns: 1fr
       .fa-2x i{
 
         font-size: 1rem;
+      }
+
+
+      .login-modal{
+
+width: 300px;
+
       }
 
   }

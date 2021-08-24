@@ -107,7 +107,11 @@ h1{
 
 }
 
+.btn-small{
 
+
+  display: none;
+}
 
 
   .login {
@@ -629,6 +633,15 @@ grid-template-columns: repeat(2,1fr);
 
   display: none;
 }
+
+
+.btn-small{
+
+
+  display: block;
+}
+
+
 .header {
 max-width:300px;
 
@@ -641,6 +654,10 @@ max-width:300px;
   letter-spacing: 1.5px;
 
 }
+
+
+
+
 h2 {
 
   font-size: 12px;

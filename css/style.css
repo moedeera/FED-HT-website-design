@@ -421,19 +421,20 @@ opacity: 0.7;
 
 display: flex;
 color: white;
-background: url(../img/pic05.png) no-repeat center center / cover ;
+background: url(../img/pic06.jpg) no-repeat center center / cover ;
 padding: 40px;
 justify-content: space-between;
 
 }
 .first-half{
 
-width: 50%;
-background: white;
+width: 90%;
+background: none;
 padding: 20px;
 margin: 0 auto;
 
-color: black;
+color: white;
+font-size:21px;
 
 
 
@@ -441,11 +442,7 @@ color: black;
 
 
 
-.second-half{
 
-
-  
-}
 .upper img{
 
   width:40px;
@@ -712,7 +709,7 @@ line-height: 1.5;
 
 .fourth{
 
-background: url(../img/pic05.png);
+background: url(../img/pic06.jpg);
 
 color: black;
 }

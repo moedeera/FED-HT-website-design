@@ -30,7 +30,7 @@
 
 //     }
 //     )
-var cards = document.querySelectorAll(".show");
+var cards = document.getElementsByTagName("section");
 
 const observer = new IntersectionObserver((entries) => {
   console.log(entries);

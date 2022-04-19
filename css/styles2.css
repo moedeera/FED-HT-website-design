@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Akshar:wght@400;500;600&display=swap");
 * {
   margin: 0;
   box-sizing: border-box;
@@ -95,12 +96,117 @@ nav ul li {
 }
 .poster {
   border: 2px solid orangered;
-  height: 400px;
+  height: 650px;
   width: 100%;
-  max-width: 370px;
+  padding: 0 5px;
+  max-width: 420px;
   margin: 0 auto;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.6em;
 }
 
+.poster i {
+  /* height: 50px;
+  width: 50px; */
+  font-size: 58px;
+  /* background-color: purple;
+  border-radius: 50%; */
+}
+.btn-poster {
+  width: 10rem;
+  height: 3rem;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px 0;
+  font-size: 18px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 1px solid rgba(128, 128, 128, 0.63);
+}
+
+.green {
+  background-color: #023c40;
+}
+.teal {
+  background-color: teal;
+}
+.gold {
+  background-color: #fca311;
+}
+.blue {
+  background-color: #3590f3;
+}
+.bottomline,
+.outro {
+  font-family: "Akshar", sans-serif;
+
+  height: 400px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 30px auto;
+  font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  letter-spacing: 2px;
+  gap: 10px;
+  font-weight: 600;
+  text-align: center;
+}
+.bottomline h1,
+.outro h1 {
+  font-size: 38px;
+}
+.bottomline p,
+.outro p {
+  font-size: 20px;
+  letter-spacing: 1.5px;
+}
+.outro ul {
+  display: flex;
+
+  width: 100%;
+  font-size: 58px;
+  list-style: none;
+  justify-content: space-evenly;
+  color: grey;
+}
+
+.footer {
+}
+.footer ul {
+  list-style: none;
+}
+.upper-footer {
+  padding: 20px 0;
+
+  display: flex;
+  justify-content: space-evenly;
+  height: 300px;
+  font-size: 18px;
+  line-height: 1.6em;
+  background-color: rgba(128, 128, 128, 0.541);
+}
+.lower-footer {
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.icons {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  color: #023c408a;
+}
 @media only screen and (min-width: 768px) {
   .showcase {
     display: grid;

@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  width: 200px;
+  list-style: none;
+  font-weight: 700;
+}
+nav ul li {
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+}
+.showcase {
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  /* border: 1px solid green; */
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  /* border: 1px solid orangered; */
+  height: 45vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.info h1 {
+  font-size: 50px;
+}
+.info p {
+  font-size: 18px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.btn-new {
+  width: 10rem;
+  background: black;
+  color: white;
+  border-radius: 10px;
+  padding: 14px 8px;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.info i {
+  font-size: 58px;
+  color: grey;
+}
+.info ul {
+  display: flex;
+  list-style: none;
+  width: 100%;
+
+  justify-content: space-between;
+}
+.Image-sm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.middleline {
+  width: 100%;
+  max-width: 1300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  margin: 0 auto;
+  padding: 0 15px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  justify-self: center;
+  align-self: center;
+}
+.poster {
+  border: 2px solid orangered;
+  height: 400px;
+  width: 100%;
+  max-width: 370px;
+  margin: 0 auto;
+}
+
+@media only screen and (min-width: 768px) {
+  .showcase {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .info,
+  .Image-sm {
+    height: 80vh;
+    padding: 0 40px;
+  }
+
+  .middleline {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .middleline {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .Image-sm {
+    display: none;
+  }
+  .showcase {
+    justify-content: space-evenly;
+  }
+  .info {
+    width: 100%;
+    justify-content: space-evenly;
+  }
+}

@@ -33,10 +33,11 @@
 var card1 = document.querySelector(".middleline");
 var card2 = document.querySelector(".bottomline");
 var card3 = document.querySelector(".outro");
+var card4 = document.querySelector(".c-l");
 const options = {
   root: null, // it is the viewport
   threshold: 0,
-  rootMargin: "-100px",
+  rootMargin: "-150px",
 };
 
 const observer = new IntersectionObserver((entries) => {
@@ -49,6 +50,17 @@ const observer = new IntersectionObserver((entries) => {
   }
 }, options);
 
+const observer2 = new IntersectionObserver((entries) => {
+  if (entries[0].isIntersecting) {
+    console.log(entries[0].target);
+    entries[0].target.classList.remove("appear");
+  } else {
+    console.log(entries[0].target, " is out of page");
+    entries[0].target.classList.add("appear");
+  }
+}, options);
+
 observer.observe(card1);
 observer.observe(card2);
 observer.observe(card3);
+observer2.observe(card4);

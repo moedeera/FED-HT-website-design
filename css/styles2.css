@@ -96,14 +96,14 @@ nav ul li {
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 30px;
-  margin: 0 auto;
+  margin: 40px auto;
   padding: 0 15px;
   justify-content: center;
   align-items: center;
   align-content: center;
   justify-self: center;
   align-self: center;
-  animation: serv-logoL 800ms ease-in-out;
+  transition: 800ms ease-in-out;
 }
 .poster {
   border: 2px solid orangered;
@@ -155,6 +155,11 @@ nav ul li {
 .blue {
   background-color: #3590f3;
 }
+
+.show {
+  opacity: 0;
+}
+
 .bottomline,
 .outro {
   font-family: "Akshar", sans-serif;

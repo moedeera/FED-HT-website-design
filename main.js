@@ -30,10 +30,25 @@
 
 //     }
 //     )
-var cards = document.getElementsByTagName("section");
+var card1 = document.querySelector(".middleline");
+var card2 = document.querySelector(".bottomline");
+var card3 = document.querySelector(".outro");
+const options = {
+  root: null, // it is the viewport
+  threshold: 0,
+  rootMargin: "-350px",
+};
 
 const observer = new IntersectionObserver((entries) => {
-  console.log(entries);
-});
+  if (entries[0].isIntersecting) {
+    console.log(entries[0].target);
+    entries[0].target.classList.remove("show");
+  } else {
+    console.log(entries[0].target, " is out of page");
+    entries[0].target.classList.add("show");
+  }
+}, options);
 
-observer.observe(cards[0]);
+observer.observe(card1);
+observer.observe(card2);
+observer.observe(card3);

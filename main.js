@@ -36,7 +36,7 @@ var card3 = document.querySelector(".outro");
 const options = {
   root: null, // it is the viewport
   threshold: 0,
-  rootMargin: "-150px",
+  rootMargin: "-100px",
 };
 
 const observer = new IntersectionObserver((entries) => {

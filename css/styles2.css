@@ -125,7 +125,7 @@ nav ul li {
   color: white;
   letter-spacing: 2px;
   font-weight: 600;
-  transition: 800ms ease-in-out;
+  transition: 1100ms ease-in-out;
 }
 .right {
   height: 400px;
@@ -218,6 +218,7 @@ nav ul li {
   top: 0;
   left: 100%;
   transition: 700ms ease-in-out;
+  border-radius: 5px;
 }
 .poster-info-card p {
   color: rgba(0, 0, 0, 0.918);

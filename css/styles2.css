@@ -45,6 +45,7 @@ nav ul li {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+
   padding: 10px;
   animation: serv-logoL 1.1s ease-in-out;
 }
@@ -56,6 +57,7 @@ nav ul li {
   letter-spacing: 2px;
   font-weight: 600;
   margin: 10px 0;
+  line-height: 1.8em;
 }
 .btn-new {
   width: 10rem;
@@ -103,6 +105,7 @@ nav ul li {
   align-content: center;
   justify-self: center;
   align-self: center;
+
   transition: 800ms ease-in-out;
 }
 .poster {
@@ -213,6 +216,25 @@ nav ul li {
   line-height: 1.6em;
   background-color: rgba(128, 128, 128, 0.541);
 }
+.upf {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.upf h2 {
+  text-align: left;
+  margin-bottom: 10px;
+}
+.ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: rgb(54, 51, 51);
+  font-weight: 400;
+  line-height: 1.8em;
+}
+
 .lower-footer {
   padding: 10px 0;
   display: flex;
@@ -223,6 +245,16 @@ nav ul li {
   display: flex;
   justify-content: space-evenly;
   color: #6c63ff;
+}
+.lower-footer-copyright {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.cp-text {
+  color: rgba(0, 0, 0, 0.7);
+  text-shadow: 0 1px rgba(255, 255, 255, 0.1);
 }
 @media only screen and (min-width: 769px) {
   .showcase {

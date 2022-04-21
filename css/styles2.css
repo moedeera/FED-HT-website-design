@@ -417,6 +417,21 @@ nav ul li {
   }
   .info p {
   }
+  .c-l {
+    grid-template-columns: 1fr;
+    grid-template-rows: 2fr 1fr;
+    font-size: 15px;
+  }
+  .c-l img {
+    width: 250px;
+  }
+  .right {
+    border-right: none;
+    border-bottom: 2px solid white;
+  }
+  .left {
+    height: 200px;
+  }
 }
 
 @keyframes serv-logoU {

@@ -257,8 +257,6 @@ nav ul li {
   transform: translateX(-100%);
 }
 .appear {
-  opacity: 0;
-  transform: translateX(100%);
 }
 
 .bottomline,

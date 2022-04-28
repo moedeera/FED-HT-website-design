@@ -66,7 +66,7 @@ const observer = new IntersectionObserver((entries) => {
 //   }
 // }, options);
 
-observer.observe(card0);
+// observer.observe(card0);
 // observer.observe(card2);
 // observer.observe(card3);
 // observer2.observe(card4);

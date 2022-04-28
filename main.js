@@ -283,10 +283,10 @@ function onPopupClose() {
 //   }, 5000);
 // }
 
-// setTimeout(function () {
-//   // lastFocus = document.activeElement;
-//   onPopupOpen();
-// }, 5000);
+setTimeout(function () {
+  lastFocus = document.activeElement;
+  onPopupOpen();
+}, 5000);
 
 document.getElementById("close").addEventListener("click", () => {
   document.getElementById("modal-content").style.display = "none";

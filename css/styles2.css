@@ -6,6 +6,7 @@
 }
 body {
   height: fit-content;
+  font-size: 16px;
 }
 
 nav {
@@ -137,9 +138,10 @@ nav ul li {
   align-self: center;
   transition: 1100ms ease-in-out;
   border-radius: 15px;
+  overflow-x: hidden;
 }
 .middleline h2 {
-  font-size: 29px;
+  font-size: 25px;
   font-family: "Montserrat", sans-serif;
   padding: 0 10px;
   font-weight: 700;
@@ -351,7 +353,7 @@ nav ul li {
 .poster-info-card p,
 .poster p {
   color: white;
-  font-size: 20px;
+  font-size: 16px;
 
   font-weight: 700;
   letter-spacing: 1.5px;
@@ -586,32 +588,38 @@ nav ul li {
   display: flex;
   flex-direction: column;
   gap: 10px;
-  padding: 40px;
+  padding: 30px;
   color: white;
   border-radius: 5px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
 }
 .booking-form input,
 .booking-form select,
 .booking-form button {
   width: 12rem;
-  height: 2rem;
+  height: 2.25rem;
+  border: 1px solid rgba(128, 128, 128, 0.425);
+  padding: 5px;
+  border-radius: 5px;
 }
 .booking-credit {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 15px;
   background: #fff;
-  padding: 10px 5px;
+  padding: 10px;
   color: #645dd7;
 }
 .booking-form button {
   font-size: 1.15rem;
-  background-color: #3590f3;
+  background-color: black;
   border: none;
   color: white;
   text-transform: uppercase;
   padding: 5px;
   cursor: pointer;
+  border-radius: 5px;
 }
 #Name,
 #email,

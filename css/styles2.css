@@ -68,6 +68,7 @@ nav ul li {
   font-weight: 600;
   letter-spacing: 2px;
   cursor: pointer;
+  margin: 30px 0;
   text-transform: uppercase;
 }
 .info i {
@@ -154,6 +155,7 @@ nav ul li {
   font-family: "Montserrat", sans-serif;
   width: 100%;
   max-width: 1300px;
+  overflow-x: hidden;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
@@ -294,9 +296,8 @@ nav ul li {
   border: none;
   border-radius: 5px;
   color: white;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
+  display: grid;
+  grid-template-rows: 2fr 1fr 4fr 1fr;
   align-items: center;
   text-align: center;
   letter-spacing: 2px;
@@ -309,23 +310,28 @@ nav ul li {
   font-size: 58px;
   /* background-color: purple;
   border-radius: 50%; */
+  padding: 20px;
+  border-bottom: 2px solid white;
 }
 .btn-poster {
-  width: 10rem;
+  width: 12rem;
   height: 3rem;
   background-color: white;
   border-radius: 5px;
-  padding: 5px 0;
+  padding: 0 5px;
   font-size: 18px;
   font-weight: 600;
   cursor: pointer;
   border: 1px solid rgba(128, 128, 128, 0.63);
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+
+  margin: 0 auto;
 }
 .btn-poster i {
   font-size: 18px;
+  border-bottom: none;
 }
 .poster-info-card {
   position: absolute;
@@ -496,15 +502,16 @@ nav ul li {
   height: 100%;
   align-items: center;
   justify-content: center;
+  overflow-x: hidden;
 }
 .form {
-  position: fixed;
-  top: 0;
-  width: 428px;
-  margin: 50px auto;
+  width: 80%;
+  max-width: 428px;
+  margin: 0 auto;
   padding: 50px;
   background-color: #645dd7;
 }
+
 .form #modal-content label {
   display: block;
   margin-bottom: 5px;
@@ -557,6 +564,62 @@ nav ul li {
 .info2 input[type="submit"]:hover {
   background: linear-gradient(180deg, #ff6c54, #ffa754);
 }
+
+/*booking-form*/
+.no-show {
+  display: none;
+}
+.book-now {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding-top: 40px;
+  height: 100%;
+  background: rgba(128, 128, 128, 0.507);
+}
+
+.booking-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  background: #645dd7;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 40px;
+  color: white;
+  border-radius: 5px;
+}
+.booking-form input,
+.booking-form select,
+.booking-form button {
+  width: 12rem;
+  height: 2rem;
+}
+.booking-credit {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 15px;
+  background: #fff;
+  padding: 10px 5px;
+  color: #645dd7;
+}
+.booking-form button {
+  font-size: 1.15rem;
+  background-color: #3590f3;
+  border: none;
+  color: white;
+  text-transform: uppercase;
+  padding: 5px;
+  cursor: pointer;
+}
+#Name,
+#email,
+#selection {
+  width: 80% !important;
+  margin: 5px 0;
+}
+/**/
 
 @media only screen and (min-width: 969px) {
   .showcase {

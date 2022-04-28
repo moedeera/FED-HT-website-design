@@ -283,11 +283,24 @@ function onPopupClose() {
 //   }, 5000);
 // }
 
-setTimeout(function () {
-  // lastFocus = document.activeElement;
-  onPopupOpen();
-}, 5000);
+// setTimeout(function () {
+//   // lastFocus = document.activeElement;
+//   onPopupOpen();
+// }, 5000);
 
 document.getElementById("close").addEventListener("click", () => {
   document.getElementById("modal-content").style.display = "none";
+});
+
+//book-now modal
+
+const bookNowBtn = document.getElementById("book-now");
+
+const cancelBtn = document.getElementById("cancel");
+
+bookNowBtn.addEventListener("click", () => {
+  document.getElementById("bookNowModal").classList.remove("no-show");
+});
+cancelBtn.addEventListener("click", () => {
+  document.getElementById("bookNowModal").classList.add("no-show");
 });

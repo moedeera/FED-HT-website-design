@@ -67,7 +67,7 @@ nav ul li {
   border-radius: 10px;
   padding: 14px 8px;
   font-size: 18px;
-  font-weight: 600;
+  font-weight: 700;
   letter-spacing: 2px;
   cursor: pointer;
   margin: 30px 0;
@@ -408,6 +408,7 @@ nav ul li {
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  line-height: 1.8em;
   letter-spacing: 2px;
   gap: 10px;
   font-weight: 600;
@@ -580,8 +581,11 @@ nav ul li {
   height: 100%;
   background: rgba(128, 128, 128, 0.507);
 }
-
 .booking-form {
+  animation: serv-logoR 800ms ease-in-out;
+}
+.booking-form,
+.booking-form form {
   width: 100%;
   max-width: 600px;
   margin: 0 auto;
@@ -618,6 +622,7 @@ nav ul li {
   border: none;
   color: white;
   text-transform: uppercase;
+  font-weight: 700;
   padding: 5px;
   cursor: pointer;
   border-radius: 5px;
@@ -625,11 +630,17 @@ nav ul li {
 #Name,
 #email,
 #selection {
-  width: 80% !important;
+  width: 70% !important;
   margin: 5px 0;
 }
 /**/
-
+textarea {
+  width: 80%;
+  height: 100px;
+  padding: 10px;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
 @media only screen and (min-width: 969px) {
   .showcase {
     display: grid;
@@ -740,6 +751,20 @@ nav ul li {
   }
   .cp-text {
     font-size: 10px;
+  }
+
+  .booking-credit {
+    grid-template-columns: 1fr;
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+  }
+  .booking-form,
+  .booking-form form {
+    padding: 5px;
+  }
+  .booking-credit input,
+  .booking-credit select {
   }
 }
 

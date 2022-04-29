@@ -284,10 +284,10 @@ function onPopupClose() {
 //   }, 5000);
 // }
 
-setTimeout(function () {
-  lastFocus = document.activeElement;
-  onPopupOpen();
-}, 5000);
+// setTimeout(function () {
+//   lastFocus = document.activeElement;
+//   onPopupOpen();
+// }, 5000);
 
 document.getElementById("close").addEventListener("click", () => {
   document.getElementById("modal-content").style.display = "none";
@@ -296,12 +296,24 @@ document.getElementById("close").addEventListener("click", () => {
 //book-now modal
 
 const bookNowBtn = document.getElementById("book-now");
+const contactUs = document.getElementById("contact-us");
 
 const cancelBtn = document.getElementById("cancel");
+const cancelBtn2 = document.getElementById("cancel2");
 
 bookNowBtn.addEventListener("click", () => {
   document.getElementById("bookNowModal").classList.remove("no-show");
 });
+
+contactUs.addEventListener("click", () => {
+  document.getElementById("Contact").classList.remove("no-show");
+});
+
 cancelBtn.addEventListener("click", () => {
   document.getElementById("bookNowModal").classList.add("no-show");
+});
+
+cancelBtn2.addEventListener("click", (e) => {
+  e.preventDefault();
+  document.getElementById("Contact").classList.add("no-show");
 });

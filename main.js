@@ -173,7 +173,7 @@ const testimonials = [
     position: "HTML/CSS Instructor",
     photo:
       "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    text: "I've taught hundreds of HTML/CSS developers. This is an interactive curriculum that stresses on good, clean code and attention to the details.",
+    text: "I've taught hundreds of HTML/CSS developers in other schools but this is by far the best setup I have seen. This is an interactive curriculum that stresses on good, clean code and attention to the details.",
   },
   {
     name: "James Kagawa",
@@ -187,32 +187,33 @@ const testimonials = [
     position: "Express/NodeJS Instructor",
     photo:
       "https://cdn.pixabay.com/photo/2018/11/08/23/52/man-3803551_960_720.jpg",
-    text: "The key to this program is that we treat everyone uniquely according to how they learn. Students give us feedback on what works bast for them and we adopt accordingly",
+    text: "The key to this program is that we treat everyone uniquely according to how they learn. Students give us feedback on what works best for them and we adopt accordingly.",
   },
   {
-    name: "Ria Schuman",
+    name: "Ria Monero",
     position: "Design Instructor",
-    photo: "https://randomuser.me/api/portraits/women/65.jpg",
-    text: "I've taught hundreds of HTML/CSS developers. This is an interactive curriculum that stresses on good, clean code and attention to the details.",
+    photo:
+      "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    text: "The atmosphere here is for everyone. Young college graduates to older full time parents, everyone can find their stride in our interactive program.",
   },
   {
     name: "Jimmy Nunez",
-    position: "Design Designer",
+    position: "Design Instructor",
     photo: "https://randomuser.me/api/portraits/men/43.jpg",
-    text: "I've taught hundreds of HTML/CSS developers. This is an interactive curriculum that stresses on good, clean code and attention to the details.",
+    text: "This program allows for students to really learn web design from the ground up. It also builds their creative flair so they can have their own sense of style.",
   },
   {
     name: "Sheldon Lee",
     position: "Interview coach",
     photo:
       "https://cdn.pixabay.com/photo/2014/11/19/10/52/man-537136_960_720.jpg",
-    text: "I've taught hundreds of HTML/CSS developers. This is an interactive curriculum that stresses on good, clean code and attention to the details.",
+    text: "I have coached hundreds of students into successfully getting a job. Many people are surprised to find out the sheer level of demand for web developers out there.",
   },
   {
     name: "Vincent Sully",
-    position: "Instructor",
+    position: "JavaScript Instructor",
     photo: "https://randomuser.me/api/portraits/men/97.jpg",
-    text: "I've taught hundreds of HTML/CSS developers. This is an interactive curriculum that stresses on good, clean code and attention to the details.",
+    text: "The atmosphere here is for everyone. Young college graduates to older full time parents, everyone can find their stride in our interactive program.",
   },
 ];
 

@@ -317,3 +317,18 @@ cancelBtn2.addEventListener("click", (e) => {
   e.preventDefault();
   document.getElementById("Contact").classList.add("no-show");
 });
+
+document.addEventListener("click", (e) => {
+  const data = [e.target.parentElement.classList];
+  console.log(e.target.parentElement.classList);
+  if (
+    !data[0].value.includes("booking-form") &&
+    !data[0].value.includes("booking-credit") &&
+    !data[0].value.includes("book-now") &&
+    !data[0].value.includes("Info") &&
+    !data[0].value.includes("contact-now")
+  ) {
+    document.getElementById("bookNowModal").classList.add("no-show");
+    document.getElementById("Contact").classList.add("no-show");
+  }
+});

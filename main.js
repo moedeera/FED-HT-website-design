@@ -125,7 +125,7 @@ rtn4.addEventListener("click", (e) => {
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
     nextYear = yyyy + 1,
-    dayMonth = "06/30/",
+    dayMonth = "07/30/",
     birthday = dayMonth + yyyy;
 
   today = mm + "/" + dd + "/" + yyyy;
@@ -236,13 +236,6 @@ function updateTestimonial() {
 
 setInterval(updateTestimonial, 9200);
 
-// modal
-
-// $(".clear-cookie").on("click", function () {
-//   Cookies.remove("colorboxShown");
-//   $(this).replaceWith("<p><em>Cookie cleared. Re-run demo</em></p>");
-// });
-
 function onPopupOpen() {
   document.getElementById("modal-content").style.display = "flex";
   // $("#yurEmail").focus();
@@ -256,38 +249,6 @@ function onPopupClose() {
   // $(".clear-cookie").fadeIn();
   // lastFocus.focus();
 }
-
-// function displayPopup() {
-//   $.colorbox({
-//     inline: true,
-//     href: "#modal-content",
-//     className: "cta",
-//     width: 850,
-//     height: 450,
-//     onComplete: onPopupOpen,
-//     onClosed: onPopupClose,
-//   });
-// }
-
-// var lastFocus;
-// var popupShown = Cookies.get("colorboxShown");
-
-// if (popupShown) {
-//   console.log("Cookie found. No action necessary");
-//   $(".clear-cookie").show();
-// } else {
-//   console.log("No cookie found. Opening popup in 3 seconds");
-//   $(".clear-cookie").hide();
-//   setTimeout(function () {
-//     lastFocus = document.activeElement;
-//     displayPopup();
-//   }, 5000);
-// }
-
-// setTimeout(function () {
-//   lastFocus = document.activeElement;
-//   onPopupOpen();
-// }, 5000);
 
 document.getElementById("close").addEventListener("click", () => {
   document.getElementById("modal-content").style.display = "none";

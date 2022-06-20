@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
+
+.menu {
+  border: 3px crimson;
+}
+.menu-container {
+  font-family: "Lato", sans-serif;
+  text-transform: capitalize;
+}
+.menu-container h1 {
+  color: #34495e;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 100px;
+}
+.menu-header {
+  text-align: center;
+  height: 100px;
+}
+.menu-options {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.menu-option {
+  border: 2px solid yellow;
+  background-color: blue;
+  height: auto;
+  overflow-y: hidden;
+}
+.menu-slider {
+  height: 300px;
+  position: relative;
+  width: 100%;
+  overflow-x: hidden;
+  z-index: 0;
+  transition: 800ms ease-in-out;
+  overflow-y: hidden;
+}
+.menu-slide {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  animation: fade-down 1000ms;
+  transition: 1000ms ease-in-out;
+}
+#menu-slider-option-1,
+#menu-slider-option-1b {
+  background-color: crimson;
+  transform: translateX(-200%);
+  border: 2px solid crimson;
+}
+#menu-slider-option-2,
+#menu-slider-option-2b {
+  transform: translateX(-100%);
+  background-color: purple;
+  border: 2px solid green;
+}
+#menu-slider-option-3,
+#menu-slider-option-3b {
+  transform: translateX(0%);
+  background-color: aqua;
+  border: 2px solid green;
+}
+#menu-slider-option-4,
+#menu-slider-option-4b {
+  transform: translateX(100%);
+  background-color: grey;
+  border: 2px solid green;
+}
+#menu-slider-option-5,
+#menu-slider-option-5b {
+  transform: translateX(200%);
+  background-color: orange;
+  border: 2px solid green;
+}
+.menu-button {
+  display: flex;
+  justify-content: flex-start;
+  gap: 20px;
+  background-color: salmon;
+  align-items: center;
+  padding: 5px;
+  border-radius: 4px;
+}
+#menu-slider-set-1,
+#menu-slider-set-2 {
+  display: none;
+}
+
+.menu-slider-buttons {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  top: 50%;
+  /* border: 2px solid green; */
+  font-size: 34px;
+  padding: 0 10px;
+  color: #34495e;
+}
+.menu-slider-buttons:hover {
+  color: goldenrod;
+}
+
+@keyframes fade-down {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}

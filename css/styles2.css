@@ -444,16 +444,7 @@ nav ul li {
 .footer p {
   cursor: pointer;
 }
-.upper-footer {
-  padding: 20px 0;
 
-  display: flex;
-  justify-content: space-evenly;
-  height: 300px;
-  font-size: 14px;
-  line-height: 1.6em;
-  background-color: rgba(128, 128, 128, 0.541);
-}
 .upf {
   display: flex;
   flex-direction: column;
@@ -473,25 +464,6 @@ nav ul li {
   line-height: 1.8em;
 }
 
-.lower-footer {
-  padding: 10px 0;
-  display: flex;
-  justify-content: space-between;
-}
-.icons {
-  width: 20%;
-  display: flex;
-  justify-content: space-evenly;
-  color: #6c63ff;
-}
-
-.lower-footer-copyright {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 20px;
-  font-size: 14px;
-}
 .cp-text {
   color: rgba(0, 0, 0, 0.7);
   text-shadow: 0 1px rgba(255, 255, 255, 0.1);

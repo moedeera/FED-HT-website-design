@@ -124,7 +124,7 @@ rtn4.addEventListener("click", (e) => {
     mm = String(today.getMonth() + 1).padStart(2, "0"),
     yyyy = today.getFullYear(),
     nextYear = yyyy + 1,
-    dayMonth = "07/30/",
+    dayMonth = "08/30/",
     birthday = dayMonth + yyyy;
 
   today = mm + "/" + dd + "/" + yyyy;

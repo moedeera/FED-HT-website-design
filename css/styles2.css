@@ -23,7 +23,7 @@ body {
   font-size: 16px;
 }
 
-nav {
+/* nav {
   display: flex;
   justify-content: space-between;
   padding: 10px;
@@ -43,7 +43,7 @@ nav ul li {
   padding: 5px;
   cursor: pointer;
   font-size: 18px;
-}
+} */
 .showcase {
   width: 100%;
   max-width: 1300px;

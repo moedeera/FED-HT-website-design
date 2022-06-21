@@ -19,7 +19,6 @@
 
 // e.preventDefault()
 // loginPage.classList.remove('no-show')
-
 // }
 // )
 
@@ -257,7 +256,7 @@ document.getElementById("close").addEventListener("click", () => {
 //book-now modal
 
 const bookNowBtn = document.getElementById("book-now");
-const contactUs = document.getElementById("contact-us");
+// const contactUs = document.getElementById("contact-us");
 
 const cancelBtn = document.getElementById("cancel");
 const cancelBtn2 = document.getElementById("cancel2");
@@ -266,9 +265,9 @@ bookNowBtn.addEventListener("click", () => {
   document.getElementById("bookNowModal").classList.remove("no-show");
 });
 
-contactUs.addEventListener("click", () => {
-  document.getElementById("Contact").classList.remove("no-show");
-});
+// contactUs.addEventListener("click", () => {
+//   document.getElementById("Contact").classList.remove("no-show");
+// });
 
 cancelBtn.addEventListener("click", () => {
   document.getElementById("bookNowModal").classList.add("no-show");
@@ -279,17 +278,17 @@ cancelBtn2.addEventListener("click", (e) => {
   document.getElementById("Contact").classList.add("no-show");
 });
 
-document.addEventListener("click", (e) => {
-  const data = [e.target.parentElement.classList];
-  console.log(e.target.parentElement.classList);
-  if (
-    !data[0].value.includes("booking-form") &&
-    !data[0].value.includes("booking-credit") &&
-    !data[0].value.includes("book-now") &&
-    !data[0].value.includes("Info") &&
-    !data[0].value.includes("contact-now")
-  ) {
-    document.getElementById("bookNowModal").classList.add("no-show");
-    document.getElementById("Contact").classList.add("no-show");
-  }
-});
+// document.addEventListener("click", (e) => {
+//   const data = [e.target.parentElement.classList];
+//   console.log(e.target.parentElement.classList);
+//   if (
+//     !data[0].value.includes("booking-form") &&
+//     !data[0].value.includes("booking-credit") &&
+//     !data[0].value.includes("book-now") &&
+//     !data[0].value.includes("Info") &&
+//     !data[0].value.includes("contact-now")
+//   ) {
+//     document.getElementById("bookNowModal").classList.add("no-show");
+//     document.getElementById("Contact").classList.add("no-show");
+//   }
+// });

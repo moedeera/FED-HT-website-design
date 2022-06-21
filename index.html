@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="./footer/footer.css">
     <link rel="stylesheet" href="./promo-cards-1/promo-cards.css">
     <link rel="stylesheet" href="./cards/cards.css">
+    <link rel="stylesheet" href="./navbar/navbar.css">
     <link
       rel="stylesheet"
       href="https://kit.fontawesome.com/3116f3c9df.js"
@@ -24,12 +25,54 @@
     <title>DeerCoded</title>
   </head>
   <body>
-    <nav>
+    <nav class="navbar">
+      <div class="container">
+    
+        <div class="navbar-header">
+          <button class="navbar-toggler" data-toggle="open-navbar1">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+          <a href="#">
+            <h1>Deer<span>Coded</span></h1>
+          </a>
+        </div>
+    
+        <div class="navbar-menu" id="open-navbar1">
+          <ul class="navbar-nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li class="navbar-dropdown">
+              <a href="#" class="dropdown-toggler" data-dropdown="my-dropdown-id">
+                Courses <i class="fa fa-angle-down"></i>
+              </a>
+              <ul class="dropdown" id="my-dropdown-id">
+                <li><a href="#">Actions</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li class="separator"></li>
+                <li><a href="#">Seprated link</a></li>
+                <li class="separator"></li>
+                <li><a href="#">One more seprated link.</a></li>
+              </ul>
+            </li>
+         
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+
+
+
+    <!-- <nav>
       <h2>DeerCoded</h2>
     <ul class="contact-now">
       <li id="contact-us" >Contact Us</li>
     </ul>
-    </nav>
+    </nav> -->
 
 
     <section class="showcase">
@@ -629,4 +672,5 @@
 
 </html>
 <script src="main.js"></script>
+<script src="./navbar/navbar.js"></script>
 <script src="./menu/menu.js"></script>

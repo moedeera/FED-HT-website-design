@@ -14,37 +14,37 @@ function clearCurrentSLide() {
   menuSlideSet2.style.display = "none";
 }
 
-menuSliderBtn1.addEventListener("click", () => {
-  if (menuSlideDropDown === "none") {
-    menuSlideSet1.style.display = "block";
+// menuSliderBtn1.addEventListener("click", () => {
+//   if (menuSlideDropDown === "none") {
+//     menuSlideSet1.style.display = "block";
 
-    menuSlideDropDown = "option1";
-  } else if (menuSlideDropDown === "option1") {
-    console.log("condition 2");
-    menuSlideSet1.style.display = "none";
-    menuSlideDropDown = "none";
-  } else {
-    clearCurrentSLide();
-    menuSlideSet1.style.display = "block";
-    menuSlideDropDown = "option1";
-  }
-});
+//     menuSlideDropDown = "option1";
+//   } else if (menuSlideDropDown === "option1") {
+//     console.log("condition 2");
+//     menuSlideSet1.style.display = "none";
+//     menuSlideDropDown = "none";
+//   } else {
+//     clearCurrentSLide();
+//     menuSlideSet1.style.display = "block";
+//     menuSlideDropDown = "option1";
+//   }
+// });
 
-menuSliderBtn2.addEventListener("click", () => {
-  console.log(menuSlideDropDown);
-  if (menuSlideDropDown === "none") {
-    menuSlideSet2.style.display = "block";
+// menuSliderBtn2.addEventListener("click", () => {
+//   console.log(menuSlideDropDown);
+//   if (menuSlideDropDown === "none") {
+//     menuSlideSet2.style.display = "block";
 
-    menuSlideDropDown = "option2";
-  } else if (menuSlideDropDown === "option2") {
-    menuSlideSet2.style.display = "none";
-    menuSlideDropDown = "none";
-  } else {
-    clearCurrentSLide();
-    menuSlideSet2.style.display = "block";
-    menuSlideDropDown = "option2";
-  }
-});
+//     menuSlideDropDown = "option2";
+//   } else if (menuSlideDropDown === "option2") {
+//     menuSlideSet2.style.display = "none";
+//     menuSlideDropDown = "none";
+//   } else {
+//     clearCurrentSLide();
+//     menuSlideSet2.style.display = "block";
+//     menuSlideDropDown = "option2";
+//   }
+// });
 
 /// First Slider ///
 
@@ -103,8 +103,8 @@ function shiftSlider(x, array) {
 
 let slidePosition = 3;
 
-slideBtn1Left.addEventListener("click", () => {
-  console.log(slidePosition);
+// slideBtn1Left.addEventListener("click", () => {
+//   console.log(slidePosition);
 
-  shiftSlider(slidePosition, menuSlider1);
-});
+//   shiftSlider(slidePosition, menuSlider1);
+// });

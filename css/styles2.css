@@ -6,6 +6,18 @@
   font-family: "Roboto", sans-serif;
   font-family: "Lato", sans-serif;
 }
+:root {
+  --text-light: #fcfcfc;
+  --text-dark: black;
+  --color-secondary: #256eff;
+  --color-primary: #645dd7;
+  --color-alternate: #bb342f;
+  --color-alternate2: #46237a;
+  --color-white: white;
+
+  --max-width: 1300px;
+}
+
 body {
   height: fit-content;
   font-size: 16px;

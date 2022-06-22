@@ -1,0 +1,57 @@
+.counter-container {
+  background: url("https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png")
+    no-repeat center center/cover;
+  position: relative;
+}
+.count-up {
+  min-height: 200px;
+}
+.counter-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-secondary);
+  opacity: 0.9;
+  z-index: 1;
+}
+.count-up-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  height: 200px;
+}
+.count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+}
+.count h1 {
+  font-size: 48px;
+  color: var(--color-primary);
+  letter-spacing: 1px;
+  color: white;
+  z-index: 9;
+}
+.count-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: aliceblue;
+}
+.count-number i {
+  color: var(--color-primary);
+  color: aliceblue;
+  font-size: 18px;
+  margin-left: 5px;
+  z-index: 9;
+}
+.count p {
+  z-index: 9;
+  color: aliceblue;
+  font-weight: 700;
+  letter-spacing: 1px;
+}

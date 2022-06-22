@@ -2,9 +2,11 @@
   background: url("https://cdn.pixabay.com/photo/2016/11/30/20/58/programming-1873854_960_720.png")
     no-repeat center center/cover;
   position: relative;
+  height: fit-content;
 }
 .count-up {
   min-height: 200px;
+  height: fit-content;
 }
 .counter-overlay {
   position: absolute;
@@ -17,10 +19,11 @@
   z-index: 1;
 }
 .count-up-container {
+  padding: 40px 0;
   display: flex;
   justify-content: space-evenly;
+  align-items: center;
   flex-wrap: wrap;
-  height: 200px;
 }
 .count {
   display: flex;

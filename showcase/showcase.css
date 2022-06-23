@@ -2,12 +2,13 @@
   /* border: 1px solid green; */
   padding: 0px;
   position: relative;
-  margin: 20px 0 50px;
+  margin: 50px 0 50px;
 }
 .showcase-container {
   /* border: 1px solid crimson; */
   display: flex;
   flex-direction: column-reverse;
+  gap: 60px;
   max-width: 1300px;
   margin: 0 auto;
 }

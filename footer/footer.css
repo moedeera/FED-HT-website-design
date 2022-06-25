@@ -113,9 +113,10 @@ i,
   /* height: 200px; */
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 10px;
   flex-wrap: wrap;
   letter-spacing: 1.5px;
+  margin-bottom: 20px;
 }
 .fs-large i {
   font-size: 28px;

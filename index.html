@@ -20,7 +20,8 @@
     <link rel="stylesheet" href="./testimonials/testimonials.css">
     <link rel="stylesheet" href="./datesection/datesection.css">
     <link rel="stylesheet" href="./showcase/showcase.css">
-
+    <link rel="stylesheet" href="./navigation-section/navigate.css">
+  <link rel="stylesheet" href="./newmodal-section/modal.css">
     <link
       rel="stylesheet"
       href="https://kit.fontawesome.com/3116f3c9df.js"
@@ -31,7 +32,7 @@
     <title>DeerCoded</title>
   </head>
   <body>
-    <nav class="navbar">
+    <!-- <nav class="navbar">
       <div class="container">
     
         <div class="navbar-header">
@@ -53,14 +54,17 @@
                 Courses <i class="fa fa-angle-down"></i>
               </a>
               <ul class="dropdown" id="my-dropdown-id">
-                <li><a href="#">Actions</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="separator"></li>
-                <li><a href="#">Seprated link</a></li>
-                <li class="separator"></li>
-                <li><a href="#">One more seprated link.</a></li>
+                <li><a href="#">Web Development 101</a></li>
+              
+                <li><a href="#">React Web Applications</a></li>
+               
+                <li><a href="#">PHP WordPress Development</a></li>
+                
+                <li><a href="#">Modern Web Design</a></li>
+                
+                <li><a href="#">MERN Stack Development</a></li>
               </ul>
-            </li>
+            
          
             <li><a href="#">About</a></li>
             <li><a href="#">Contact</a></li>
@@ -68,7 +72,7 @@
           </ul>
         </div>
       </div>
-    </nav>
+    </nav> -->
 
 
 
@@ -79,6 +83,56 @@
       <li id="contact-us" >Contact Us</li>
     </ul>
     </nav> -->
+<section class="navigation">
+
+<div class="navigation-container">
+
+  <div class="navigation-logo">
+<h1>Deer<span style="color:var(--color-primary)">Coded</span></h1>
+
+  </div>
+<div class="navigation-menu">
+  <ul>
+    <li>Home</li>
+    <li  id="drop-down-link" class="ddl">Courses
+<i class="fa fa-chevron-down ddl" id="dropDownBtn" ></i>
+    </li>
+    <li>About Us</li>
+    <li>Contact</li>
+    <div class="navigation-dropdown" id="drop-down-menu">
+      <ul class="ddl">
+        <li class="ddl">Web Development 101</li>
+        <li class="ddl">PHP & WordPress </li>
+        <li class="ddl">MERN stack</li>
+        <li class="ddl">Web Design Theory</li>
+      </ul>
+    </div>
+  </ul>
+</div>
+
+<div class="nav-hamburger">
+  <i class="fa fa-bars" id="nav-606"></i>
+</div>
+</div>
+</section>
+
+<div class="navigation-mobile" id="nav-898">
+  <div class="navigation-modal">
+    <div class="menu-list" >
+      <div id="nav-menu-close-btn"> <i class="fa fa-times fa-2x" id="icon-606"></i>   </div>
+      <div>Home</div>
+      <div>Courses</div>
+      <div>About Us</div>
+      <div>Contact</div>
+      <div>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
 
     <section class="showcase">
@@ -102,7 +156,7 @@
       <!-- <div class="button">
       <i class="fa fa-star" aria-hidden="true"></i>
       </div> -->
-        <ul>
+        <ul class="languages-ul">
           <li><i class="fab fa-js"></i></li>
           <li><i class="fab fa-css3-alt"></i></li>
           <li><i class="fab fa-react"></i></li>
@@ -498,132 +552,6 @@
      
     </section>
 
-    <!-- <section class="c-l"  data-aos="fade-right">
-<div class="right">
-  <div>
-     <i class="fas fa-chalkboard"></i>
-<h1>Courses and Locations</h1> 
-  
-
-<div class="c-l-info"><h3>Introduction to Web design 101</h3><p>Edmonton, May 1st 2022</p></div>
-<div class="c-l-info"><h3>Introduction to Web design 101</h3><p>Saskatoon, May 1st 2022</p></div>
-<div class="c-l-info"><h3>MERN stack development</h3><p>Edmonton, August 1st 2022</p></div>
-<div class="c-l-info"><h3>Web Design Theory certificate</h3><p>Edmonton, August 1st 2022</p></div>
-</div>
-</div>
-<div class="left">
-
-<img src="./img2/img4.svg" alt="" srcset="">
-
-</div>
-  
-   </section> -->
-
-
- <!-- <section class="menu">
-      <div class="menu-container">
-        <div class="menu-header">
-          <h1>Our Menu</h1>
-        </div>
-        <div class="menu-options">
-          <div class="menu-option">
-            <div class="menu-button" id="menu-slider-btn-1">
-              <i class="fa fa-plus"></i>
-              <h3>Doniars</h3>
-            </div>
-            <div class="menu-slider" id="menu-slider-set-1">
-              <div class="menu-slide" id="menu-slider-option-1">Slide-1</div>
-              <div class="menu-slide" id="menu-slider-option-2">Slide-2</div>
-              <div class="menu-slide" id="menu-slider-option-3">Slide-3</div>
-              <div class="menu-slide" id="menu-slider-option-4">Slide-4</div>
-              <div class="menu-slide" id="menu-slider-option-5">Slide-5</div>
-              <div class="menu-slider-buttons">
-                <i
-                  class="fas fa-arrow-alt-circle-left"
-                  id="arrow-menu-slider-left"
-                ></i>
-                <i
-                  class="fas fa-arrow-alt-circle-right"
-                  id="arrow-menu-slider-right"
-                ></i>
-              </div>
-            </div>
-          </div>
-
-          <div class="menu-option">
-            <div class="menu-button" id="menu-slider-btn-2">
-              <i class="fa fa-plus"></i>
-              <h3>Doniars</h3>
-            </div>
-            <div class="menu-slider" id="menu-slider-set-2">
-              <div class="menu-slide" id="menu-slider-option-1b">Slide-1</div>
-              <div class="menu-slide" id="menu-slider-option-2b">Slide-2</div>
-              <div class="menu-slide" id="menu-slider-option-3b">Slide-3</div>
-              <div class="menu-slide" id="menu-slider-option-4b">Slide-4</div>
-              <div class="menu-slide" id="menu-slider-option-5b">Slide-5</div>
-              <div class="menu-slider-buttons"></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>  -->
-    <!-- <section class="promo-cards">
-      <div class="promo-cards-container">
-        <div class="promo-card">
-          <img src="./promo-cards/icons1.png" width="84px" />
-          <div>
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-              dicta?
-            </p>
-          </div>
-        </div>
-        <div class="promo-card">
-          <img src="./promo-cards/kebab.png" width="84px" />
-          <div>
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-              dicta?
-            </p>
-          </div>
-        </div>
-        <div class="promo-card">
-          <img src="./promo-cards/pizza.png" width="84px" />
-          <div>
-            <h2>Lorem ipsum dolor sit amet.</h2>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione,
-              dicta?
-            </p>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section class="bottomline" data-aos="fade-left">
-      <div>
-        <h1>Everyone learns different</h1>
-        <p style="margin-top: 30px">
-          Instead of searching various Udemy courses and Tutorials, Have a
-          consult and find out which course suit you best
-        </p>
-      </div>
-    </section> -->
-
-    <!-- <section class="outro " data-aos="fade-right">
-      <h1>Learn with others</h1>
-      <p>
-        Be sure to keep up to date with us on our social media platforms. Our
-        social media network allows you to message and 
-        connect with other students and collaborate on Different projects.</p>
-      <ul>
-        <li><i class="fab fa-twitter" style="color:#3590f3"></i></li>
-        <li><i class="fab fa-facebook-messenger" style="color:teal"></i></li>
-        <li><i class="fab fa-linkedin-in" style="color:#fca311"></i></li>
-      </ul>
-    </section> -->
 
     
     <div id="modal-content">
@@ -641,42 +569,81 @@
       </form>
     </div>
 
-   <section class="book-now no-show" id="bookNowModal">
-<div class="booking-form">
-<h1>Sign up 2 Months in advance and get a 20% discount</h1>
-  <label for="">Name</label>
-  <input type="text" placeholder="Enter Your name" id="Name">
-  <label for="email">Email</label>
-  <input type="email" name="" id="email">
-  <select name="" id="selection" >
-    <option value="course 0">Choose a course </option>
-    <option value="course 1" disabled>510$ CAD --- Introduction to web development July 2022(**full**)</option>
-    <option value="course 2">510$ CAD ------ MERN Stack development July 2022</option>
-    <option value="course 3">510$ CAD ------ Web design Theory July 2022</option>
-    <option value="course 3">510$ CAD --- Introduction to web development October 2022</option>
-  </select>  
+   <section class="book-now " id="bookNowModal">
 
-  <h1 style="color:white;">Payment</h1>
-    <div class="booking-credit">
-      <label for="text">Credit Card Number</label>
-  <input type="text" placeholder="Enter Your Card number">
-  <label for="text">Expiration</label>
-  <input type="text" name="" id="" placeholder="YYYY-MM-DD">
-
-  <label for="">Name</label>
-  <input type="text" placeholder="Enter Your name">
-  <label for="text">CVV</label>
-  <input type="text" name="" id="">
-
-<button>Submit</button>
-<button id="cancel">Cancel</button>
-
-    </div>
   
-
+<div class="book-container" >
+  <div class="book-modal-form">
+<div class="modal-image-container">
+<img src="./showcase/Saly-1.svg" alt="" width="250px">
 
 </div>
-  </section>   
+<div class="modal-form-container">
+<div class="modal-form-content">
+  <div class="registration-header"> <h2>REGISTER</h2></div>
+
+  <div class="registration-input"> 
+    <div class="input-unit"><h3>First Name</h3>
+    <input type="text">
+    </div>
+    <div class="input-unit"><h3>Last Name</h3>
+      <input type="text" placeholder="name">
+      </div>
+  </div>
+  <div class="registration-input rg-email"> 
+    <div class="input-unit"><h3>Email Address</h3>
+    <input type="text">
+    </div>
+    
+  </div>
+  <div class="registration-input">
+<div class="input-unit">
+  <h3>Select course</h3>
+  <select name="" id="selection" >
+    <option value="course 0">Choose a course </option>
+    <option value="course 1" disabled>510$---Web Dev 101</option>
+    <option value="course 2">510$ ---MERN</option>
+    <option value="course 3">510$ ---PHP</option>
+    <option value="course 3">510$ ---Web Design</option>
+  </select>  
+
+</div>
+<div class="input-unit">
+  <h3>Select Date</h3>
+  <select name="" id="selection" >
+    <option value="course 0">Choose a date </option>
+    <option value="course 1" disabled> July 2022(**full**)</option>
+    <option value="course 2">July 2022</option>
+    <option value="course 3">July 2022</option>
+    <option value="course 3">October 2022</option>
+  </select>  
+
+</div>
+
+
+  </div>
+
+  <div class="registration-input rgi-cta">
+
+    <button class="btn-new btn-form">Continue</button>  <button class="btn-new  btn-form"  id="cancel">Cancel</button>
+  </div>
+ 
+  <div class="registration-input rgi-cta">
+
+    <i class="fa fa-circle chosen" ></i>
+    <i class="fa fa-circle "></i>
+    <i class="fa fa-circle" ></i>
+  </div>
+
+</div>
+
+</div>
+
+  </div>
+</div>
+
+
+</section>   
 
 
 
@@ -705,78 +672,6 @@
 
 
 
-    <!-- <section class="footer">
-
-
-
-
-      <div class="upper-footer">
-        <div class="upf">
-          <h2>Browse</h2>
-          <div class="ul">
-            <p>Programs</p>
-            <p>Projects</p>
-            <p>Community</p>
-            <p>Podcasts</p>
-            <p>Blogs</p>
-         
-                 
-          </div>
-          </div>
-      
-      
-      <div class="upf">
-      <h2>Contact</h2>
-      <div class="ul">
-        <p>Email</p>
-        <p>Websites</p>
-        <p>Fax</p>
-        <p>Organizations</p>
-        <p>Groups</p>
-        <p>Network</p>
-        <p>Affiliates</p>
-             
-      </div>
-      </div>
-
-      <div class="upf">
-        <h2>Help</h2>
-        <div class="ul">
-          <p>Directory</p>
-          <p>Questions</p>
-          <p>FAQ</p>
-          <p>Support-line</p>
-          <p>Policy and Directives</p>
-         
-               
-        </div>
-        </div>
-
-
-      </div>
-      </div>
-   
-      
-      
-      <div class="lower-footer">
-
-
-        <div class="lower-footer-copyright"><h1>DeerCoded</h1>
-        
-          <p class="cp-text">
-            © Copyright 2021 DeeraCode. All rights reserved.
-        </p>
-        </div>
-      
-        <div class="icons">   
-      <i class="fab fa-facebook-f fa-2x"></i>
-      <i class="fab fa-twitter fa-2x" ></i>
-      <i class="fab fa-youtube fa-2x"></i>
-      <i class="fab fa-instagram-square fa-2x"></i></div>
-   
-      </div>
-      
-      </section> -->
 
       <section class="footer">
         <div class="footer-container">
@@ -855,4 +750,6 @@
 <script src="./counter/counter.js"></script>
 <script src="./navbar/navbar.js"></script>
 <script src="./menu/menu.js"></script>
+<script src="./navigation-section/navigate.js"></script>
+<script src="./newmodal-section/modal.js"></script>
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>

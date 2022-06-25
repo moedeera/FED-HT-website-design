@@ -235,48 +235,48 @@ function updateTestimonial() {
 
 setInterval(updateTestimonial, 9200);
 
-function onPopupOpen() {
-  document.getElementById("modal-content").style.display = "flex";
-  // $("#yurEmail").focus();
-}
+// function onPopupOpen() {
+//   document.getElementById("modal-content").style.display = "flex";
+//   // $("#yurEmail").focus();
+// }
 
-function onPopupClose() {
-  document.getElementById("modal-content").style.display = "none";
-  // Cookies.set("colorboxShown", "yes", {
-  //   expires: 1,
-  // });
-  // $(".clear-cookie").fadeIn();
-  // lastFocus.focus();
-}
+// function onPopupClose() {
+//   document.getElementById("modal-content").style.display = "none";
+//   // Cookies.set("colorboxShown", "yes", {
+//   //   expires: 1,
+//   // });
+//   // $(".clear-cookie").fadeIn();
+//   // lastFocus.focus();
+// }
 
-document.getElementById("close").addEventListener("click", () => {
-  document.getElementById("modal-content").style.display = "none";
-});
-
-//book-now modal
-
-const bookNowBtn = document.getElementById("book-now");
-// const contactUs = document.getElementById("contact-us");
-
-const cancelBtn = document.getElementById("cancel");
-const cancelBtn2 = document.getElementById("cancel2");
-
-bookNowBtn.addEventListener("click", () => {
-  document.getElementById("bookNowModal").classList.remove("no-show");
-});
-
-// contactUs.addEventListener("click", () => {
-//   document.getElementById("Contact").classList.remove("no-show");
+// document.getElementById("close").addEventListener("click", () => {
+//   document.getElementById("modal-content").style.display = "none";
 // });
 
-cancelBtn.addEventListener("click", () => {
-  document.getElementById("bookNowModal").classList.add("no-show");
-});
+// //book-now modal
 
-cancelBtn2.addEventListener("click", (e) => {
-  e.preventDefault();
-  document.getElementById("Contact").classList.add("no-show");
-});
+// const bookNowBtn = document.getElementById("book-now");
+// // const contactUs = document.getElementById("contact-us");
+
+// const cancelBtn = document.getElementById("cancel");
+// const cancelBtn2 = document.getElementById("cancel2");
+
+// bookNowBtn.addEventListener("click", () => {
+//   document.getElementById("bookNowModal").classList.remove("no-show");
+// });
+
+// // contactUs.addEventListener("click", () => {
+// //   document.getElementById("Contact").classList.remove("no-show");
+// // });
+
+// cancelBtn.addEventListener("click", () => {
+//   document.getElementById("bookNowModal").classList.add("no-show");
+// });
+
+// cancelBtn2.addEventListener("click", (e) => {
+//   e.preventDefault();
+//   document.getElementById("Contact").classList.add("no-show");
+// });
 
 // document.addEventListener("click", (e) => {
 //   const data = [e.target.parentElement.classList];

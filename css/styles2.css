@@ -527,13 +527,13 @@ textarea {
   .right {
     border-right: none;
   }
-  .countdown li {
+  /* .countdown li {
     font-size: calc(1.125rem * var(--smaller));
   }
 
   .countdown li span {
     font-size: calc(3.375rem * var(--smaller));
-  }
+  } */
   .c-l-info {
     display: grid;
     gap: 10px;

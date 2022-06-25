@@ -1,0 +1,126 @@
+.navigation {
+  /* border: 3px solid green; */
+  font-family: "Roboto" sans-serif;
+  margin-bottom: 0px;
+}
+.navigation i {
+  transition: all 500ms ease-in-out;
+}
+.navigation-container {
+  /* border: 2px solid crimson; */
+  width: 100%;
+  max-width: 1300px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.navigation-menu ul {
+  display: none;
+  list-style: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.languages {
+}
+.nav-hamburger {
+  display: block;
+}
+.navigation-menu {
+  width: 50%;
+}
+.navigation-menu i {
+  font-size: 14px;
+}
+.nav-hamburger i {
+  font-size: 24px !important;
+}
+.navigation-dropdown {
+  display: none;
+  transition: all 500ms ease-in-out;
+}
+.fa-chevron-down {
+  transition: all 500ms ease-in-out;
+}
+.navigation-mobile {
+  background-color: rgba(255, 255, 255, 0.875);
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+  transform: translateX(-100%);
+  transition: all 500ms ease-in-out;
+}
+.navigation-modal {
+}
+.menu-list {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+@media only screen and (min-width: 769px) {
+  .navigation-menu {
+    min-height: 60px;
+    display: flex;
+    margin: 0;
+    position: relative;
+  }
+  .navigation-dropdown {
+    /* display: none; */
+    position: absolute;
+    width: 65%;
+    height: 70%;
+    bottom: 0;
+
+    left: 25%;
+  }
+  .navigation-dropdown ul {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    gap: 1px;
+    z-index: 9999;
+
+    transition: 300ms all ease-in-out;
+    padding: 5px;
+    border-radius: 4px;
+    background-color: aliceblue;
+    border-top: none;
+    box-shadow: var(--box-shadow);
+  }
+  .navigation-dropdown li {
+    height: 100%;
+    height: 30px;
+    margin: 0;
+    padding: 10px 0;
+    z-index: 9999;
+    padding-left: 20px;
+  }
+  .navigation-menu ul {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    gap: 20px;
+    margin: 0 auto;
+  }
+  .nav-hamburger {
+    display: none;
+  }
+  .navigation-menu li {
+    cursor: pointer;
+    letter-spacing: 0.75px;
+  }
+  .navigation-dropdown li:hover {
+  }
+  .navigation-menu li:hover {
+    color: var(--color-secondary);
+  }
+}

@@ -71,7 +71,7 @@ const observer = new IntersectionObserver((entries) => {
 // observer2.observe(card4);
 
 btn1.addEventListener("click", (e) => {
-  console.log("you clicked");
+  closeAll();
   document.getElementById("pi1").style.left = "0";
 });
 
@@ -81,7 +81,7 @@ rtn1.addEventListener("click", (e) => {
 });
 
 btn2.addEventListener("click", (e) => {
-  console.log("you clicked");
+  closeAll();
   document.getElementById("pi2").style.left = "0";
 });
 
@@ -91,7 +91,7 @@ rtn2.addEventListener("click", (e) => {
 });
 
 btn3.addEventListener("click", (e) => {
-  console.log("you clicked");
+  closeAll();
   document.getElementById("pi3").style.left = "0";
 });
 
@@ -101,7 +101,7 @@ rtn3.addEventListener("click", (e) => {
 });
 
 btn4.addEventListener("click", (e) => {
-  console.log("you clicked");
+  closeAll();
   document.getElementById("pi4").style.left = "0";
 });
 
@@ -159,6 +159,12 @@ rtn4.addEventListener("click", (e) => {
     }, 0);
 })();
 
+function closeAll() {
+  document.getElementById("pi1").style.left = "100%";
+  document.getElementById("pi2").style.left = "100%";
+  document.getElementById("pi3").style.left = "100%";
+  document.getElementById("pi4").style.left = "100%";
+}
 // function onPopupOpen() {
 //   document.getElementById("modal-content").style.display = "flex";
 //   // $("#yurEmail").focus();

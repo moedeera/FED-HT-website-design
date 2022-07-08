@@ -154,6 +154,7 @@ nav ul li {
   color: var(--color-alternate2);
   border-left: 1px solid var(--color-secondary);
   background-color: #7cc2da;
+  z-index: 9;
 }
 
 .poster-info-card p,

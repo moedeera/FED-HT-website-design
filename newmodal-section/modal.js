@@ -19,14 +19,12 @@ contactButtonN.addEventListener("click", () => {
   modalOpen = true;
 });
 
-// window.addEventListener("click", (e) => {
-//   let insideClick = e.target.classList.contains("imc");
-//   console.log(modalOpen);
-//   if (modalOpen && clickCount !== 0) {
-//     if (!insideClick) {
-//       document.getElementById("bookNowModal").style.display = "none";
-//       modalOpen = false;
-//       clickCount = 0;
-//     }
-//   }
-// });
+window.addEventListener("click", (e) => {
+  let insideClick = e.target.classList.contains("imc");
+
+  console.log(modalOpen);
+
+  if (!insideClick) {
+    document.getElementById("bookNowModal").style.display = "none";
+  }
+});

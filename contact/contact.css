@@ -7,11 +7,11 @@ padding:50px 0;
  
 }
 .contact-box{
-    border: 1px solid crimson;
+    /* border: 1px solid crimson; */
 }
 
 .upper-contact{
-    border: 1px solid green;
+    /* border: 1px solid green; */
     display: flex;
     flex-wrap: wrap;
     justify-content:center;

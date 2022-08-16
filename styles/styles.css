@@ -168,18 +168,6 @@ body {
   color: var(--color-alternate2) !important;
 }
 
-/* .green {
-  background-color: #ff4242;
-}
-.teal {
-  background-color: teal;
-}
-.gold {
-  background-color: #fca311;
-}
-.blue {
-  background-color: #3590f3;
-} */
 
 .show {
   opacity: 0;

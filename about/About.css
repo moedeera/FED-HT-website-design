@@ -30,6 +30,7 @@
   justify-content: center;
   max-width: 400px;
   width: 100%;
+  /* border: 1px solid green; */
 
 }
 .about-us-image img {
@@ -146,14 +147,16 @@
 @media only screen and (min-width: 900px) {
   .about-us-box {
     padding-top: 80px;
+    /* flex-direction: row; */
     display: grid;
-    grid-template-columns: 1fr 1.5fr;
+    grid-template-columns: 1fr 2fr;
     text-align: left;
     min-height: 600px;
     line-height: 1.6em;
   }
   .about-us-image {
     display: flex;
+    min-width: 350px;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;

@@ -114,6 +114,15 @@ box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
 .form-image{
     background-color: var(--color-primary);
 }
+
+.form-image-lg{
+display: none;
+    
+}
+.form-image-sm{
+
+  display:block;  
+}
 /* .form-btn{
     border: 2px solid crimson;
     width: 100%;
@@ -138,6 +147,16 @@ transform:translateY(-3px);
 
 
     }
+
+    .form-image-lg{
+        display: block;
+            
+        }
+        .form-image-sm{
+        
+          display:none;  
+        }
+
 
 
 }

@@ -22,12 +22,14 @@
   margin-bottom: 100px;
 }
 .about-us-image {
-  padding:0 20px;
-  background-color: var(--color-alternate);
+  padding:20px;
+  background-color: var(--color-secondary);
+  background-color: white;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 400px;
+  max-width: 400px;
+  width: 100%;
 
 }
 .about-us-image img {
@@ -131,6 +133,16 @@
 }
 .about-us-text {
 }
+.form-image-lg{
+  display: none;
+      
+  }
+  .form-image-sm{
+  
+    display:block;  
+  }
+
+
 @media only screen and (min-width: 900px) {
   .about-us-box {
     padding-top: 80px;
@@ -164,5 +176,19 @@
   .about-contact-us {
     justify-content: flex-start;
   }
+
+  .form-image-lg{
+    display: block;
+        
+    }
+    .form-image-sm{
+    
+      display:none;  
+    }
+    .about-us-image {
+      padding:0 20px;
+      background-color: var(--color-secondary);
+    }
+
 }
 

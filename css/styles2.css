@@ -20,11 +20,8 @@
 }
 
 body {
- 
   font-size: 16px;
 }
-
-
 
 .middleline {
   width: 100%;
@@ -468,7 +465,10 @@ textarea {
 
 .bookForm {
 }
-
+.sdsdsD {
+}
+.dsdsd {
+}
 @media only screen and (min-width: 500px) {
   .middleline {
     grid-template-columns: repeat(2, 1fr);

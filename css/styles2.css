@@ -165,19 +165,6 @@ body {
   color: var(--color-alternate2) !important;
 }
 
-/* .green {
-  background-color: #ff4242;
-}
-.teal {
-  background-color: teal;
-}
-.gold {
-  background-color: #fca311;
-}
-.blue {
-  background-color: #3590f3;
-} */
-
 .show {
   opacity: 0;
   transform: translateX(-100%);
@@ -242,7 +229,6 @@ body {
 .bottomline,
 .outro {
   font-family: "Akshar", sans-serif;
-
   height: 400px;
   width: 100%;
   max-width: 1300px;
@@ -277,15 +263,6 @@ body {
   justify-content: space-evenly;
   color: grey;
 }
-
-/* .footer {
-}
-.footer ul {
-  list-style: none;
-}
-.footer p {
-  cursor: pointer;
-} */
 
 .upf {
   display: flex;
@@ -512,13 +489,7 @@ textarea {
   .right {
     border-right: none;
   }
-  /* .countdown li {
-    font-size: calc(1.125rem * var(--smaller));
-  }
 
-  .countdown li span {
-    font-size: calc(3.375rem * var(--smaller));
-  } */
   .c-l-info {
     display: grid;
     gap: 10px;
@@ -531,13 +502,7 @@ textarea {
   .fa-quote {
     display: none;
   }
-  /* }
-  .upper-footer {
-    display: none;
-  }
-  .lower-footer-copyright h1 {
-    display: none;
-  } */
+
   .icons {
     width: 50%;
   }

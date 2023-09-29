@@ -15,6 +15,21 @@
   border-top: none;
   height: 100%;
 }
+
+/* cards */
+.landing-section-cards {
+  border: 1px solid green;
+  display: flex;
+  gap: 10px;
+  display: none;
+}
+.landing-section-card {
+  border: 1px solid grey;
+  width: 100%;
+  max-width: 300px;
+  height: 200px;
+}
+/**/
 .Image {
   width: 80%;
 }
@@ -149,9 +164,13 @@
   }
   .Info-Header p {
     display: block;
-    letter-spacing: 1px;
-    line-height: 1.6em;
+    letter-spacing: 1.25px;
+    line-height: 1.8em;
     color: rgba(0, 0, 0, 0.856);
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 20px !important;
+    font-size: medium;
   }
   .button {
     text-align: left;
@@ -159,7 +178,12 @@
     flex-direction: column;
     justify-content: flex-start;
   }
-  .btn-new {
+  .landing-section-cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .landing-section-card {
+    height: 120px;
   }
   .Info {
     padding: 0 10px;
